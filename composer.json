@@ -1,0 +1,8 @@
+{
+    "name": "root/pim",
+    "type": "project",
+    "require": {
+        "easyswoole/easyswoole": "^3.2"
+    },
+    "license": "MIT"
+}
