@@ -6,6 +6,7 @@ var ws = new WebSocket("ws://111.230.26.237:9501");
 
 
 // pim 客户端Api
+/* 
 pim.conn({
   key: 'qwqeqasdasdasd',
   host: '111.230.26.237',
@@ -20,7 +21,7 @@ pim.send({
 
   },
 })
-
+ */
 
 
 // 原型实现
@@ -51,6 +52,9 @@ ws.onopen = function(evt) {
 
 ws.onmessage = function(evt) {
   console.log( "Received Message: " + evt.data);
+
+
+  document.body.append('<div>'+ evt.data +'</div>')
   // ws.close();
 };
 

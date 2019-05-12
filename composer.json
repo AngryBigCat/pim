@@ -1,8 +1,10 @@
 {
     "name": "root/pim",
     "type": "project",
-    "require": {
-        "easyswoole/easyswoole": "^3.2"
+    "autoload": {
+        "psr-4": {
+            "Pim\\": "src"
+        }
     },
     "license": "MIT"
 }
