@@ -1,4 +1,4 @@
-var ws = new WebSocket("ws://111.230.26.237:9501");
+var ws = new WebSocket("ws://111.230.26.237:9501?hello=1&asdasd=qweqwe");
 
 // jssdk设计
 // todo

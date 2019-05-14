@@ -1,7 +1,9 @@
 <?php
 
-require_once __DIR__.'./vendor/autoload.php';
+define('ROOT_PATH', __DIR__);
 
-require_once __DIR__.'./src/main.php';
+require_once ROOT_PATH.'/vendor/autoload.php';
 
-Main::run();
+require_once ROOT_PATH.'/src/Main.php';
+
+Pim\Main::run();
