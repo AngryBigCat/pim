@@ -1,6 +1,6 @@
 # Pim
 
-Pim 是一个Web即时推送服务
+Pim 是一个Web即时通讯服务
 
 ## Feature
 
